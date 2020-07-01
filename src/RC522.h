@@ -58,7 +58,8 @@ Section:                                          ~literals and defines
  */
 #define RST	5
 #define CHANNEL 0// CE0
-#define SPI_SPEED 4000000// Hz (500k-32m)
+//#define SPI_SPEED 4000000// Hz (500k-32m)
+#define SPI_SPEED 500000// Hz (500k-32m)
 
 
 typedef uint8_t byte;
